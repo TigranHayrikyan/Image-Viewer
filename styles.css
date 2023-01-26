@@ -1,3 +1,82 @@
-/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
-/* Add styles here to customize the appearance of your app */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+	background-color: #171717;
+}
+
+.input{
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    background: white;
+    border:1px groove #bbbbbb
+
+}
+
+footer{
+	position:sticky;
+	bottom:0;
+	height: 10vh;
+	background-color:#000000;
+}
+
+
+.open{
+    font-size: 25px;
+    cursor: pointer;
+    color: #ccc;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 1.7%;
+    margin-top: 25%;
+    padding-left: 0%;    
+}
+
+.output{
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin: auto;
+	margin-top: 200px;
+	border-style: groove;
+	border-color: #ccc;
+}
+#image{
+
+	width: 500px;
+	height: 500px;
+}
+
+#description{
+	color: #ccc;
+	position: absolute;
+	display: block;
+	text-align: center;
+	margin-top: 230px;
+	margin-left: 150px;
+	font-size: 25px;
+}
+#parag{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 25px;
+	color: #ccc;
+}
+#divForParagraph{
+	text-align: center;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
